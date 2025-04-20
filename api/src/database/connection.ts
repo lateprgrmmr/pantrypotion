@@ -18,7 +18,6 @@ const dbConnectionInfo: ConnectionInfo = {
   host: process.env.DB_HOST,
   port: parseInt(process.env.DB_PORT || "3452"),
 };
-// console.log('dbConnectionInfo', dbConnectionInfo);
 
 let db: massive.Database | null = null;
 

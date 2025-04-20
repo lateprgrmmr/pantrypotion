@@ -1,12 +1,10 @@
-// import IngredientInput from "./components/IngredientInput";
-import RecipeForm from "./components/RecipeForm";
+import MainPage from "./components/MainPage";
 
 function App() {
   return (
     <div style={{ maxWidth: 600, margin: "auto", paddingTop: "2rem" }}>
-      <div>Enter Ingredient</div>
       <div>
-        <RecipeForm />
+        <MainPage />
       </div>
     </div>
   );
